@@ -43,7 +43,7 @@ Here are all the options I have used in my plentiful use - not saying you won't 
 * --no-filename -- this is the opposite
 * -v -- this inverse the match (find everything that doesn't satisify my regex)
 * -i -- ignore case
-* -g -- pass a glob like -g '*{js, ts}' - only look in these files
+* -g -- pass a glob like -g '*{js,ts}' - only look in these files, it is comma not delineated - spaces are meaingful 
 * --only-matching - only show the parts that are in red by default - this wll make sense after you run it:)
 
 ### Composability
