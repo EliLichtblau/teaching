@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "jsx": "react",
+        // This is essentially isolatedModules with
+        // the added restriction that you can use import export
+        // syntax in cjs nor require in mjs
+        "verbatimModuleSyntax": true,
+        "rootDir": "./src",
+        "noEmit": true,
+        "strict": true,
+        "skipLibCheck": true
+    }
+}

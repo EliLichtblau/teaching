@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        // This is essentially isolatedModules with
+        // the added restriction that you can use import export
+        // syntax in cjs nor require in mjs
+        "verbatimModuleSyntax": true,
+        "esModuleInterop": true,
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "jsx": "react",
+        "rootDir": "./src",
+        "outDir": "dist",
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*", "src/*"],
+    "exclude": ["webpack.config.cjs"]
+}
