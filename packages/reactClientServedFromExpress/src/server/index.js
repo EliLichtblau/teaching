@@ -28,8 +28,7 @@ app.get("/", (req, res)=>{
 
 })
 
-// you need to use this middleware to send json - don't worry about it
-app.use(express.json())
+
 app.post("/api/proxiedExample", (req, res)=>{
     res.setHeader("content-type", "text/json")
     res.send(JSON.stringify({
